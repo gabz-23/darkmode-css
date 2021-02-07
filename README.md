@@ -2,4 +2,4 @@
 
 Regala le una estrella al repositorio si te parecio interesante!!
 
-[Sigue mi Instagram](https://www.instagram.com/spacecode.dev/)
+[Sigue mi Instagram](https://www.instagram.com/gabrielfer_20/)

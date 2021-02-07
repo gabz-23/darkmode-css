@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darkmode</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <button class="btn-theme" id="btn-theme">
-        <span></span>
-        <div>
-            
-            <img src="img/moon.svg" alt="moon">
-            <img src="img/sun.svg" alt="sun">
-        </div>
-    </button>
-    
-    <div class="container">
-        <div class="card">
-            <img src="img/man.jpg" class="user-img" alt="man">
-            <div class="content">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Darkmode</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<button class="btn-theme" id="btn-theme">
+			<span></span>
+			<div>
+				<img src="img/sun.svg" alt="sun" />
+				<img src="img/moon.svg" alt="moon" />
+			</div>
+		</button>
 
-                <ul class="experience">
-                    <li>#HTML</li>
-                    <li>#CSS</li> 
-                    <li>#Javascript</li> 
-                </ul>
-                <p class="user-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error repellendus quis reiciendis libero molestias eaque sint impedit laborum, neque numquam alias esse nihil aliquid vero recusandae dicta cum! Est?</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="img/woman.jpg" class="user-img" alt="man">
-            <div class="content">
-                <ul class="experience">
-                    <li>#Nodejs</li>
-                    <li>#Graphql</li> 
-                    <li>#Typescript</li> 
-                </ul>
-                <p class="user-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error repellendus quis reiciendis libero molestias eaque sint impedit laborum, neque numquam alias esse nihil aliquid vero recusandae dicta cum! Est?</p>
-            </div>
-        </div>
-    </div>
-    
-    <script src="app.js"></script>
-</body>
+		<div class="container">
+			<div class="card">
+				<img src="img/man.jpg" class="user-img" alt="man" />
+				<div class="content">
+					<h2 class="name-user">Juan Torres</h2>
+					<p class="description">
+						Desarrollador web Frontend, Mis tecnologias favoritas son:
+					</p>
+					<ul class="experience">
+						<li>#HTML</li>
+						<li>#CSS</li>
+						<li>#Javascript</li>
+					</ul>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/woman.jpg" class="user-img" alt="man" />
+				<div class="content">
+					<h2 class="name-user">Maria Lopez</h2>
+					<p class="description">
+						Desarrolladora web Backend, Me especiálizo con estas tecnologias:
+					</p>
+
+					<ul class="experience">
+						<li>#Nodejs</li>
+						<li>#Graphql</li>
+						<li>#Typescript</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
 </html>
